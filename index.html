@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Gießen — Автобусы (PWA)</title>
+
+  <link rel="manifest" href="/manifest.json" />
+  <link rel="stylesheet" href="style.css" />
+
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="https://unpkg.com/papaparse@5.4.1/papaparse.min.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Gießen — Автобусы</h1>
+  </header>
+
+  <main>
+    <aside id="sidebar">
+      <button id="loadGtfs">Загрузить GTFS</button>
+      <hr/>
+      <label>Маршрут:
+        <select id="routeSelect"><option>—</option></select>
+      </label>
+
+      <label>Скорость симуляции:
+        <input id="speed" type="range" min="0.25" max="8" step="0.25" value="1">
+      </label>
+
+      <div id="info">Инфо: –</div>
+      <button id="centerCity">Центр Gießen</button>
+    </aside>
+
+    <section id="map"></section>
+  </main>
+
+  <script src="app.js"></script>
+
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('/sw.js');
+    }
+  </script>
+</body>
+</html>
