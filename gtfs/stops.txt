@@ -1,0 +1,13 @@
+stop_id,stop_name,stop_lat,stop_lon
+S1,Bahnhof,50.583300,8.678400
+S2,Marktplatz,50.586300,8.676400
+S3,Universitaet,50.588300,8.680400
+S4,Klinik,50.581300,8.682400
+S5,Wieseck,50.578300,8.675400
+S6,Gewerbegebiet,50.590300,8.674400
+S7,Sandfeldschule,50.579300,8.684400
+S8,Europaviertel,50.585300,8.684400
+S9,Petersweiher,50.577300,8.680400
+S10,Philipp-Reis-Str,50.587300,8.672400
+S11,Alfred-Bock-Str,50.575300,8.676400
+S12,Schwarzacker,50.592300,8.679400

@@ -1,0 +1,17 @@
+route_id,agency_id,route_short_name,route_long_name,route_type
+R1,MITBUS,1,Route 1 simplified,3
+R2,MITBUS,2,Route 2 simplified,3
+R3,MITBUS,3,Route 3 simplified,3
+R5,MITBUS,5,Route 5 simplified,3
+R6,MITBUS,6,Route 6 simplified,3
+R7,MITBUS,7,Route 7 simplified,3
+R9,MITBUS,9,Route 9 simplified,3
+R10,MITBUS,10,Route 10 simplified,3
+R12,MITBUS,12,Route 12 simplified,3
+R13,MITBUS,13,Route 13 simplified,3
+R14,MITBUS,14,Route 14 simplified,3
+R15,MITBUS,15,Route 15 simplified,3
+R17,MITBUS,17,Route 17 simplified,3
+R18,MITBUS,18,Route 18 simplified,3
+R801,MITBUS,801,Route 801 simplified,3
+R802,MITBUS,802,Route 802 simplified,3

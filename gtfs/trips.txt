@@ -1,0 +1,17 @@
+route_id,service_id,trip_id,trip_headsign,direction_id,shape_id
+R1,S1,T1_1,Terminus S6,0,SH1
+R2,S1,T2_1,Terminus S7,0,SH2
+R3,S1,T3_1,Terminus S8,0,SH3
+R5,S1,T5_1,Terminus S9,0,SH5
+R6,S1,T6_1,Terminus S10,0,SH6
+R7,S1,T7_1,Terminus S11,0,SH7
+R9,S1,T9_1,Terminus S12,0,SH9
+R10,S1,T10_1,Terminus S1,0,SH10
+R12,S1,T12_1,Terminus S2,0,SH12
+R13,S1,T13_1,Terminus S3,0,SH13
+R14,S1,T14_1,Terminus S4,0,SH14
+R15,S1,T15_1,Terminus S5,0,SH15
+R17,S1,T17_1,Terminus S6,0,SH17
+R18,S1,T18_1,Terminus S7,0,SH18
+R801,S1,T801_1,Terminus S8,0,SH801
+R802,S1,T802_1,Terminus S9,0,SH802
